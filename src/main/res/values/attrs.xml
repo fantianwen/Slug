@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MultiStateRefreshLayout的属性 -->
+    <declare-styleable name="MultiStateRefreshLayout">
+
+        <attr name="listView" format="reference" />
+
+        <!-- listView空状态的时候显示的view -->
+        <attr name="emptyView" format="reference" />
+        <!-- 获取数据错误的时候显示的view -->
+        <attr name="requestErrorView" format="reference" />
+
+        <!-- footerView的状态 -->
+        <attr name="footLoadingView" format="reference" />
+        <attr name="footErrorView" format="reference" />
+        <attr name="footSuccessView" format="reference" />
+        <attr name="footUnknownView" format="reference" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStateRefreshLayout"><attr format="reference" name="listView"/><attr format="reference" name="emptyView"/><attr format="reference" name="requestErrorView"/><attr format="reference" name="footLoadingView"/><attr format="reference" name="footErrorView"/><attr format="reference" name="footSuccessView"/><attr format="reference" name="footUnknownView"/></declare-styleable>
+    <string name="app_name">MultiStateRefreshLayoutLib</string>
+</resources>

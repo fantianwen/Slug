@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dooioo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dooioo.mobile.common.view.MultiStateRefreshLayout
+        android:id="@+id/validSaleRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        dooioo:emptyView="@layout/default_empty_view"
+        dooioo:footErrorView="@layout/default_foot_error_view"
+        dooioo:footLoadingView="@layout/default_foot_loading_view"
+        dooioo:footSuccessView="@layout/default_foot_success_view"
+        dooioo:footUnknownView="@layout/default_foot_unknown_view"
+        dooioo:listView="@layout/default_listview"
+        dooioo:requestErrorView="@layout/default_request_error_view">
+
+    </com.dooioo.mobile.common.view.MultiStateRefreshLayout>
+
+
+</LinearLayout>
