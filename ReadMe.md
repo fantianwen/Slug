@@ -1,6 +1,6 @@
-### Slug
+### <div align=center>Slug</div>
 
-![Slug](http://o7zh7nhn0.bkt.clouddn.com/slug.jpg)
+<div align=center>![Slug](http://o7zh7nhn0.bkt.clouddn.com/slug.jpg)</div>
 
 ### Feature
 
