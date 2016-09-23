@@ -1,15 +1,13 @@
 ### Slug
 
-![Slug](http://o7zh7nhn0.bkt.clouddn.com/slug.png)
-
-
+![Slug](http://o7zh7nhn0.bkt.clouddn.com/slug.jpg)
 
 ### Feature
 
 - [MultiStateRefreshLayout](https://github.com/fantianwen/MultiStateRefreshLayout)
 	
 	
-- 以`MultiStateRefreshLayout`为基础封装的`BaseRefreshLoadingFragment`
+- 以`MultiStateRefreshLayout`为基础封装的[BaseRefreshLoadingFragment](https://github.com/fantianwen/Slug/blob/master/src/main/java/van/tian/wen/multistaterefreshlayoutlib/BaseRefreshLoadingFragment.java)
 	 
 	 支持上拉刷新和滑到底部刷新
 	 
