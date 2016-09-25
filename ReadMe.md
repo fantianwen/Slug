@@ -49,6 +49,25 @@ public class RefreshingLoadingDemoFragment extends BaseRefreshLoadingFragment<Mo
 }
 ```
 
+- MVP
+
+继承`BasePresenter`,默认构造实现是：
+
+```
+public BasePresenter(V view) {
+     ...
+}
+```
+
+或者使用(效率略高)：
+
+```
+public BasePresenter(V view, Class<M> modelClass) {
+		...
+}
+```
+
+Demo 参见 [MVP_Demo](https://github.com/fantianwen/MultiStateRefreshLayout/blob/master/app/src/main/java/van/tian/wen/multirefreshlayout/MainActivity.java#L27)
 
 
 
