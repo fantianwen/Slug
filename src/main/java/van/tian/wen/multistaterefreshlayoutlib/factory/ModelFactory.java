@@ -60,7 +60,7 @@ public class ModelFactory {
                     add(className, m);
                     return m;
                 } else {
-                    throw new IllegalArgumentException("The Model M should be constructed with default constructor");
+                    throw new IllegalArgumentException("The " + className + " should be constructed with default constructor");
                 }
             }
         } else {
@@ -88,4 +88,9 @@ public class ModelFactory {
     public <M extends IModel> M register(IModel iModel) {
         return getModelInstance(iModel.provideModelName());
     }
+
+    public <M extends IModel> M register(Class<? extends IModel> modelClass) {
+        return getModelInstance(modelClass.getCanonicalName());
+    }
+
 }

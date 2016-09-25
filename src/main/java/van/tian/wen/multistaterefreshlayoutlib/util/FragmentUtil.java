@@ -37,7 +37,7 @@ public class FragmentUtil {
         if (fragment.isDetached()) {
             fragmentTransaction.attach(fragment);
         } else if (!fragment.isAdded()) {
-            fragmentTransaction.replace(mFragmentContainerResId, fragment, fragment.getTag());
+            fragmentTransaction.replace(mFragmentContainerResId, fragment, fragmentTag);
         }
 
         fragmentTransaction.addToBackStack(null);
